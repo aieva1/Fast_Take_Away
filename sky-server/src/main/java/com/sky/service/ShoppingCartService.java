@@ -4,4 +4,8 @@ import com.sky.dto.ShoppingCartDTO;
 
 public interface ShoppingCartService {
     void addShoppingCart(ShoppingCartDTO shoppingCartDTO);
+
+    Object showShoppingCart();
+
+    void cleanShoppingCart();
 }
